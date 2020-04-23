@@ -1,5 +1,5 @@
 # spring-boot-JPA
-spring boot with JPA project.
+Spring boot with JPA project.
 
 Tools Used:
 	 IDE - intellij
