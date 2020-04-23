@@ -2,10 +2,10 @@
 spring boot with JPA project.
 
 Tools Used:
-	- IDE: STS
+	- IDE: intellij
 	- Java: 8
-	- Spring boot 2.2.6
-	- JPA
+	- Spring boot version - 2.2.6
+	- JPA/Hibernate
   
   Books Api Operations:
   
