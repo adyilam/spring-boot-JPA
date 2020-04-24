@@ -14,3 +14,6 @@ Tools Used:
   update - Updates a specific resource.
   delete - Delets a specific resource
   
+  
+  API URL TEST:
+  postman
