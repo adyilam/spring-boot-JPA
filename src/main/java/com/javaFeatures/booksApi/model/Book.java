@@ -1,7 +1,7 @@
 package com.javaFeatures.booksApi.model;
 
 public class Book {
-    private String title;
+    private String id;
     private String Authors;
     private String publisher;
     private String publishedDate;
@@ -10,8 +10,8 @@ public class Book {
     public Book(Book book) {
     }
 
-    public Book( String title, String authors, String publisher, String publishedDate, String description) {
-        this.title = title;
+    public Book( String id, String authors, String publisher, String publishedDate, String description) {
+        this.id = id;
         Authors = authors;
         this.publisher = publisher;
         this.publishedDate = publishedDate;
@@ -20,11 +20,11 @@ public class Book {
 
 
     public String getTitle() {
-        return title;
+        return id;
     }
 
     public void setTitle(String title) {
-        this.title = title;
+        this.id = title;
     }
 
     public String getAuthors() {
@@ -62,7 +62,7 @@ public class Book {
     @Override
     public String toString() {
         return "Book{" +
-                ", title='" + title + '\'' +
+                ", title='" + id + '\'' +
                 ", Authors='" + Authors + '\'' +
                 ", publisher='" + publisher + '\'' +
                 ", publishedDate='" + publishedDate + '\'' +
