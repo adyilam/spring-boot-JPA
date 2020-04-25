@@ -1,16 +1,22 @@
 package com.javaFeatures.booksApi.model;
 
+import javax.persistence.Id;
+
+import javax.persistence.Entity;
+
+@Entity
 public class Book {
+    @Id
     private String id;
     private String Authors;
     private String publisher;
     private String publishedDate;
     private String description;
 
-    public Book(Book book) {
+    public Book() {
     }
 
-    public Book( String id, String authors, String publisher, String publishedDate, String description) {
+    public Book(String id, String authors, String publisher, String publishedDate, String description) {
         this.id = id;
         Authors = authors;
         this.publisher = publisher;
@@ -19,12 +25,12 @@ public class Book {
     }
 
 
-    public String getTitle() {
+    public String getId() {
         return id;
     }
 
-    public void setTitle(String title) {
-        this.id = title;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getAuthors() {
